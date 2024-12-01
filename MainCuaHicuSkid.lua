@@ -1,6 +1,6 @@
 --([[ScriptNewHiruHub]])--
 print("Loading Script")
-print("HiruHub○nTop")
+print("LightHubOnTop")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tepfai/Function/refs/heads/main/%3D%C3%B7-%C3%97Loading603%23Xtpyuicghk.lua"))()
 game.StarterGui:SetCore(
     "SendNotification",
