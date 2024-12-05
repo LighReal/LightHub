@@ -1,9 +1,9 @@
---Memories Hub Hyper - Rewrite Fixed & Update #38.6
+--Light Hub Hyper - Rewrite Fixed & Update #38.6
 repeat task.wait() until game:IsLoaded()
 notis = require(game.ReplicatedStorage:WaitForChild("Notification"))
-notis.new("<Color=White>MLight Hub<Color=/>"):Display()
-notis.new("<Color=Blue>Founder: deforeLightx<Color=/>"):Display() 
-notis.new("<Color=Red>Discord: https://discord.gg/dellcohub<Color=/>"):Display() 
+notis.new("<Color=White>LightS Hub<Color=/>"):Display()
+notis.new("<Color=Blue>Founder: skidder<Color=/>"):Display() 
+notis.new("<Color=Red>Discord: https://discord.gg/<Color=/>"):Display() 
 notis.new("<Color=Yellow>Exploit Use:<Color=/> ".. identifyexecutor()):Display() 
 local memaythangskidocnguloz = "\104\116\116\112\115://\114\97\119.\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116.\99\111\109/\72\105\114\105\109\105\105/\102\52\99\107\121\111\117/\109\97\105\110\47\99\99\108\117\97"
 local OrionLib = loadstring(game:HttpGet((memaythangskidocnguloz)))()
@@ -109,7 +109,7 @@ ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.200000003, 0, -0.75, 0)
 ImageLabel.Selectable = false
 ImageLabel.Size = UDim2.new(0, 40, 0, 40)
-ImageLabel.Image = "rbxassetid://15983996673"
+ImageLabel.Image = "rbxassetid://16147783761"
 ImageLabel.MouseButton1Down:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true,"RightShift",false,game)
     game:GetService("VirtualInputManager"):SendKeyEvent(false,"RightShift",false,game)
@@ -142,7 +142,7 @@ function Notify(G, H, I)
     if type(I) ~= "number" then
         I = 10
     end
-    OrionLib:MakeNotification({Name = G, Content = H, Image = "rbxassetid://15983996673", Time = I})
+    OrionLib:MakeNotification({Name = G, Content = H, Image = "rbxassetid://16161703575", Time = I})
 end
 function CheckNearestTeleporter(P)
     local min = math.huge
