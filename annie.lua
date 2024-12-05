@@ -6271,7 +6271,7 @@ ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
 ImageButton.Image = "https://www.roblox.com/asset/?id=15983996673"
-UICorner.Parent = ImageButton
+UICorner.Parent = https://cdn.discordapp.com/avatars/1247437589670264883/a_8b10b46d6c0eb090e9ae991741e9906f.png
 ImageButton.MouseButton1Down:connect(function()
        game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
        game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
