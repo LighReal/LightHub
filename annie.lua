@@ -11,6 +11,13 @@ local Window = Fluent:CreateWindow({
     Theme = "Light",
     MinimizeKey = Enum.KeyCode.RightControl -- Used when theres no MinimizeKeybind
 })
+local GojoImage = Instance.new("ImageLabel")
+GojoImage.Name = "GojoImage"
+GojoImage.Parent = Window.Frame
+GojoImage.Size = UDim2.new(0, 100, 0, 100) -- Kích thước hình ảnh
+GojoImage.Position = UDim2.new(0.5, -50, 0, 10) -- Vị trí hình ảnh
+GojoImage.Image = "https://cdn.discordapp.com/avatars/1306978380238950400/e7635c36030d9277eefcfaa25663234b.png" -- Thay bằng URL của hình ảnh Gojo
+GojoImage.BackgroundTransparency = 1 -- Làm trong suốt nền
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings-2" }),
